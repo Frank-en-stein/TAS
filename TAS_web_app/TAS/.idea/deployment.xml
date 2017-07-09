@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="TAS">
+    <serverData>
+      <paths name="TAS">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="http://127.0.0.1" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

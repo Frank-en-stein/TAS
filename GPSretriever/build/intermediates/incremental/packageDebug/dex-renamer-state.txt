@@ -1,0 +1,4 @@
+#Thu Nov 10 10:12:03 BDT 2016
+base.0=C\:\\Users\\avash\\Desktop\\TASv1\\GPSretriever\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\avash\\Desktop\\TASv1\\GPSretriever\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

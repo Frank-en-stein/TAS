@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/asd"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText9"
+        android:layout_marginTop="31dp"
+        android:hint="Enter your name"
+        android:inputType="textPersonName"
+        android:textAlignment="textStart"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText3"
+            android:hint="Enter phone number"
+            android:inputType="phone"
+            android:textAlignment="textStart"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_below="@+id/editText8"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText8"
+        android:hint="Enter email"
+        android:inputType="textEmailAddress"
+        android:textAlignment="textStart"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_below="@+id/editText9"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="32dp" />
+
+        <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText4"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:textAlignment="textStart"
+        android:textSize="20dp"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/editText3"
+        android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText5"
+            android:hint="Confirm your password"
+            android:inputType="textPassword"
+            android:textAlignment="textStart"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_below="@+id/editText4"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText101"
+            android:hint="Enter emergency contact number1"
+            android:inputType="phone"
+            android:textAlignment="textStart"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_below="@+id/editText8"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText102"
+            android:hint="Enter emergency contact number2"
+            android:inputType="phone"
+            android:textAlignment="textStart"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_below="@+id/editText8"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText103"
+            android:hint="Enter emergency contact number3"
+            android:inputType="phone"
+            android:textAlignment="textStart"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_below="@+id/editText8"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText500"
+            android:hint="Enter emergency message"
+            android:inputType="textAutoCorrect"
+            android:textAlignment="textStart"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_below="@+id/editText8"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Signup"
+            android:id="@+id/button19"
+            android:textColor="#ffffff"
+            android:background="#b9a8a8"
+            android:onClick="reqSignup"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</ScrollView>

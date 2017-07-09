@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/asd"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="64dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="DO&apos;S &amp; DONT&apos;S"
+            android:id="@+id/textView16"
+            android:layout_alignParentEnd="true"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="36dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView22"
+            android:layout_below="@+id/textView16"
+            android:layout_alignParentStart="true"
+            android:textSize="23dp"
+            android:textColor="#ffffff"
+            android:text="DO’S:\n
+            •	Stay calm. Do not panic.  \n
+            •	Remember that staircases and basements provide immediate protection from the blast, its effects and falling glass.  \n
+            •	Avoid calling any one. Please send SMS only. Huge amount of load is put on communication infrastructure during an emergency.  \n
+            •	Avoid crowds. Crowds may be targeted for a second attack.  \n
+            •	Avoid unattended cars, trucks or other vehicles. They may contain explosives.  \n
+            •	Stay far away from damaged buildings to avoid falling glass and bricks. \n" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="DON’TS: \n
+            •	Do not run, you may be suspected as the bomber. If you are in a crowd, stay at the fringes.  \n
+            •	Do not return to the impacted area.  \n
+            •	Do not try to manage the situation alone.  \n
+            •	Don’t stand in front of windows, glass doors or other hazardous areas."
+            android:id="@+id/textView23"
+            android:layout_below="@+id/textView22"
+            android:layout_alignParentStart="true"
+            android:textColor="#ffffff"
+            android:textSize="23dp" />
+    </LinearLayout>
+</ScrollView>

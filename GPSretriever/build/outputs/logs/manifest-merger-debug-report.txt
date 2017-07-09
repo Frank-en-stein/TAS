@@ -1,0 +1,219 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\avash\Desktop\code\TASv1\GPSretriever\src\main\AndroidManifest.xml:2:1-31:12
+	package
+		ADDED from C:\Users\avash\Desktop\code\TASv1\GPSretriever\src\main\AndroidManifest.xml:4:5-45
+		INJECTED from C:\Users\avash\Desktop\code\TASv1\GPSretriever\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\avash\Desktop\code\TASv1\GPSretriever\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\avash\Desktop\code\TASv1\GPSretriever\src\main\AndroidManifest.xml:6:5-30
+		INJECTED from C:\Users\avash\Desktop\code\TASv1\GPSretriever\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\avash\Desktop\code\TASv1\GPSretriever\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\avash\Desktop\code\TASv1\GPSretriever\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		ADDED from C:\Users\avash\Desktop\code\TASv1\GPSretriever\src\main\AndroidManifest.xml:5:5-28
+		INJECTED from C:\Users\avash\Desktop\code\TASv1\GPSretriever\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\avash\Desktop\code\TASv1\GPSretriever\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\avash\Desktop\code\TASv1\GPSretriever\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\Users\avash\Desktop\code\TASv1\GPSretriever\src\main\AndroidManifest.xml:8:5-10:41
+MERGED from [io.nlopez.smartlocation:library:3.2.7] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\io.nlopez.smartlocation\library\3.2.7\AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.gms:play-services-location:9.4.0] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.3.0] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\AndroidManifest.xml:4:5-43
+MERGED from [TASv1:smshandler:unspecified] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\TASv1\smshandler\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta2\AndroidManifest.xml:20:5-22:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.3.0] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from C:\Users\avash\Desktop\code\TASv1\GPSretriever\src\main\AndroidManifest.xml:10:9-38
+		INJECTED from C:\Users\avash\Desktop\code\TASv1\GPSretriever\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\avash\Desktop\code\TASv1\GPSretriever\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\avash\Desktop\code\TASv1\GPSretriever\src\main\AndroidManifest.xml:9:9-35
+		INJECTED from C:\Users\avash\Desktop\code\TASv1\GPSretriever\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\avash\Desktop\code\TASv1\GPSretriever\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\avash\Desktop\code\TASv1\GPSretriever\src\main\AndroidManifest.xml:12:5-30:19
+MERGED from [io.nlopez.smartlocation:library:3.2.7] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\io.nlopez.smartlocation\library\3.2.7\AndroidManifest.xml:18:5-33:19
+MERGED from [com.google.android.gms:play-services-location:9.4.0] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.3.0] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\AndroidManifest.xml:5:5-20
+MERGED from [TASv1:smshandler:unspecified] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\TASv1\smshandler\unspecified\AndroidManifest.xml:28:5-41:19
+MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta2\AndroidManifest.xml:28:5-57:19
+	android:label
+		ADDED from C:\Users\avash\Desktop\code\TASv1\GPSretriever\src\main\AndroidManifest.xml:14:9-45
+	android:supportsRtl
+		ADDED from [TASv1:smshandler:unspecified] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\TASv1\smshandler\unspecified\AndroidManifest.xml:30:9-35
+	android:icon
+		ADDED from C:\Users\avash\Desktop\code\TASv1\GPSretriever\src\main\AndroidManifest.xml:13:9-45
+	android:allowBackup
+		ADDED from [TASv1:smshandler:unspecified] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\TASv1\smshandler\unspecified\AndroidManifest.xml:29:9-35
+	android:theme
+		ADDED from [TASv1:smshandler:unspecified] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\TASv1\smshandler\unspecified\AndroidManifest.xml:31:9-40
+activity#io.nlopez.smartlocation.sample.MainActivity
+ADDED from C:\Users\avash\Desktop\code\TASv1\GPSretriever\src\main\AndroidManifest.xml:16:9-25:20
+	android:screenOrientation
+		ADDED from C:\Users\avash\Desktop\code\TASv1\GPSretriever\src\main\AndroidManifest.xml:19:13-49
+	android:label
+		ADDED from C:\Users\avash\Desktop\code\TASv1\GPSretriever\src\main\AndroidManifest.xml:18:13-49
+	android:name
+		ADDED from C:\Users\avash\Desktop\code\TASv1\GPSretriever\src\main\AndroidManifest.xml:17:13-71
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\avash\Desktop\code\TASv1\GPSretriever\src\main\AndroidManifest.xml:21:13-24:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\avash\Desktop\code\TASv1\GPSretriever\src\main\AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from C:\Users\avash\Desktop\code\TASv1\GPSretriever\src\main\AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\avash\Desktop\code\TASv1\GPSretriever\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from C:\Users\avash\Desktop\code\TASv1\GPSretriever\src\main\AndroidManifest.xml:23:27-74
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\avash\Desktop\code\TASv1\GPSretriever\src\main\AndroidManifest.xml:26:9-29:45
+MERGED from [io.nlopez.smartlocation:library:3.2.7] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\io.nlopez.smartlocation\library\3.2.7\AndroidManifest.xml:29:9-32:45
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from C:\Users\avash\Desktop\code\TASv1\GPSretriever\src\main\AndroidManifest.xml:28:13-66
+		REJECTED from [io.nlopez.smartlocation:library:3.2.7] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\io.nlopez.smartlocation\library\3.2.7\AndroidManifest.xml:31:13-36
+		REJECTED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:23:13-66
+	tools:replace
+		ADDED from C:\Users\avash\Desktop\code\TASv1\GPSretriever\src\main\AndroidManifest.xml:29:13-42
+	android:name
+		ADDED from C:\Users\avash\Desktop\code\TASv1\GPSretriever\src\main\AndroidManifest.xml:27:13-58
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [io.nlopez.smartlocation:library:3.2.7] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\io.nlopez.smartlocation\library\3.2.7\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.7] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\io.nlopez.smartlocation\library\3.2.7\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [io.nlopez.smartlocation:library:3.2.7] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\io.nlopez.smartlocation\library\3.2.7\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.7] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\io.nlopez.smartlocation\library\3.2.7\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [io.nlopez.smartlocation:library:3.2.7] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\io.nlopez.smartlocation\library\3.2.7\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.7] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\io.nlopez.smartlocation\library\3.2.7\AndroidManifest.xml:14:22-76
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [io.nlopez.smartlocation:library:3.2.7] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\io.nlopez.smartlocation\library\3.2.7\AndroidManifest.xml:15:5-98
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.7] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\io.nlopez.smartlocation\library\3.2.7\AndroidManifest.xml:15:22-95
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from [io.nlopez.smartlocation:library:3.2.7] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\io.nlopez.smartlocation\library\3.2.7\AndroidManifest.xml:16:5-94
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.7] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\io.nlopez.smartlocation\library\3.2.7\AndroidManifest.xml:16:22-91
+service#io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService
+ADDED from [io.nlopez.smartlocation:library:3.2.7] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\io.nlopez.smartlocation\library\3.2.7\AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.7] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\io.nlopez.smartlocation\library\3.2.7\AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.7] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\io.nlopez.smartlocation\library\3.2.7\AndroidManifest.xml:20:13-132
+service#io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService
+ADDED from [io.nlopez.smartlocation:library:3.2.7] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\io.nlopez.smartlocation\library\3.2.7\AndroidManifest.xml:22:9-24:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.7] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\io.nlopez.smartlocation\library\3.2.7\AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.7] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\io.nlopez.smartlocation\library\3.2.7\AndroidManifest.xml:23:13-127
+service#io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService
+ADDED from [io.nlopez.smartlocation:library:3.2.7] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\io.nlopez.smartlocation\library\3.2.7\AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.7] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\io.nlopez.smartlocation\library\3.2.7\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.7] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\io.nlopez.smartlocation\library\3.2.7\AndroidManifest.xml:26:13-120
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:20:19-85
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from [TASv1:smshandler:unspecified] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\TASv1\smshandler\unspecified\AndroidManifest.xml:11:5-70
+	android:name
+		ADDED from [TASv1:smshandler:unspecified] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\TASv1\smshandler\unspecified\AndroidManifest.xml:11:22-67
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from [TASv1:smshandler:unspecified] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\TASv1\smshandler\unspecified\AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from [TASv1:smshandler:unspecified] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\TASv1\smshandler\unspecified\AndroidManifest.xml:12:22-72
+uses-permission#android.permission.SEND_SMS
+ADDED from [TASv1:smshandler:unspecified] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\TASv1\smshandler\unspecified\AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from [TASv1:smshandler:unspecified] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\TASv1\smshandler\unspecified\AndroidManifest.xml:13:22-64
+receiver#com.example.smshandler.SmsReceiver
+ADDED from [TASv1:smshandler:unspecified] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\TASv1\smshandler\unspecified\AndroidManifest.xml:19:5-26:16
+	android:exported
+		ADDED from [TASv1:smshandler:unspecified] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\TASv1\smshandler\unspecified\AndroidManifest.xml:21:9-32
+	android:permission
+		ADDED from [TASv1:smshandler:unspecified] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\TASv1\smshandler\unspecified\AndroidManifest.xml:22:9-62
+	android:name
+		ADDED from [TASv1:smshandler:unspecified] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\TASv1\smshandler\unspecified\AndroidManifest.xml:20:9-58
+intent-filter#android.provider.Telephony.SMS_RECEIVED
+ADDED from [TASv1:smshandler:unspecified] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\TASv1\smshandler\unspecified\AndroidManifest.xml:23:9-25:25
+	android:priority
+		ADDED from [TASv1:smshandler:unspecified] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\TASv1\smshandler\unspecified\AndroidManifest.xml:23:24-47
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from [TASv1:smshandler:unspecified] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\TASv1\smshandler\unspecified\AndroidManifest.xml:24:13-78
+	android:name
+		ADDED from [TASv1:smshandler:unspecified] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\TASv1\smshandler\unspecified\AndroidManifest.xml:24:21-75
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta2\AndroidManifest.xml:25:5-80
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta2\AndroidManifest.xml:25:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta2\AndroidManifest.xml:26:5-81
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta2\AndroidManifest.xml:26:22-78
+service#com.squareup.leakcanary.internal.HeapAnalyzerService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta2\AndroidManifest.xml:29:9-32:45
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta2\AndroidManifest.xml:31:13-36
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta2\AndroidManifest.xml:32:13-42
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta2\AndroidManifest.xml:30:13-80
+service#com.squareup.leakcanary.DisplayLeakService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta2\AndroidManifest.xml:33:9-35:39
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta2\AndroidManifest.xml:35:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta2\AndroidManifest.xml:34:13-70
+activity#com.squareup.leakcanary.internal.DisplayLeakActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta2\AndroidManifest.xml:37:9-49:20
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta2\AndroidManifest.xml:39:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta2\AndroidManifest.xml:41:13-71
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta2\AndroidManifest.xml:40:13-54
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta2\AndroidManifest.xml:43:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta2\AndroidManifest.xml:42:13-59
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta2\AndroidManifest.xml:38:13-80
+activity#com.squareup.leakcanary.internal.RequestStoragePermissionActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta2\AndroidManifest.xml:50:9-56:68
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta2\AndroidManifest.xml:52:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta2\AndroidManifest.xml:54:13-82
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta2\AndroidManifest.xml:53:13-54
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta2\AndroidManifest.xml:56:13-65
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta2\AndroidManifest.xml:55:13-59
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\avash\Desktop\code\TASv1\GPSretriever\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta2\AndroidManifest.xml:51:13-93

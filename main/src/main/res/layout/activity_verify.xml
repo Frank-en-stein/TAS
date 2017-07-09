@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/asd"
+    >
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:hint="Enter verification code (5 chars)"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="52dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verify"
+        android:id="@+id/button17"
+        android:onClick="reqVer"
+        android:layout_marginTop="42dp"
+        android:textColor="#ffffff"
+        android:background="#c3b3b3"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true" />
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Resend"-->
+        <!--android:id="@+id/button18"-->
+        <!--android:background="#c3b3b3"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:onClick="resendCode"-->
+        <!--android:layout_below="@+id/button17"-->
+        <!--android:layout_alignStart="@+id/button17"-->
+        <!--android:layout_marginTop="28dp" />-->
+
+</RelativeLayout>

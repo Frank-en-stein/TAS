@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/asd">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Holey-Artisan"
+            android:id="@+id/textView20"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="10dp"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="180dp"
+            android:id="@+id/imageView4"
+            android:layout_below="@+id/textView20"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/holey"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="           •	On the night of 1 July 2016, at 21:20 local time,  five militants took hostages and opened fire on the Holey Artisan Bakery in Gulshan Thana—an affluent area with many embassies in Dhaka, Bangladesh.  \n
+            •	29 people were killed, including 20 hostages (18 foreigners and 2 locals), 2 police officers, 5 gunmen, and 2 bakery staff.   \n
+            •	Pictures allegedly taken from inside the restaurant were circulated on Twitter by pro-ISIL accounts and show several bodies and pools of blood on the floor."
+            android:id="@+id/textView21"
+            android:layout_below="@+id/imageView4"
+            android:layout_alignParentStart="true"
+            android:textColor="#ffffff"
+            android:textSize="22dp" />
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+

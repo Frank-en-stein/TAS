@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GPSretriever/GPSretriever.iml" filepath="$PROJECT_DIR$/GPSretriever/GPSretriever.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TASv1.iml" filepath="$PROJECT_DIR$/TASv1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/main/main.iml" filepath="$PROJECT_DIR$/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smshandler/smshandler.iml" filepath="$PROJECT_DIR$/smshandler/smshandler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sos/sos.iml" filepath="$PROJECT_DIR$/sos/sos.iml" />
+    </modules>
+  </component>
+</project>

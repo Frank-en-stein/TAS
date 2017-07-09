@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.juthika.home">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:name="android.support.multidex.MultiDexApplication"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".verify"
+            android:parentActivityName=".login" />
+        <activity
+            android:name=".signup"
+            android:parentActivityName=".login" />
+        <activity
+            android:name=".activity_home"
+            android:parentActivityName=".login">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <data android:scheme="geo" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".report"
+            android:parentActivityName=".activity_home" />
+        <activity
+            android:name=".settings"
+            android:parentActivityName=".activity_home" />
+        <activity
+            android:name=".tutorial"
+            android:parentActivityName=".activity_home" />
+        <activity
+            android:name=".archieve"
+            android:parentActivityName=".activity_home" />
+        <activity
+            android:name=".suspicion"
+            android:parentActivityName=".report" />
+        <activity
+            android:name=".nearbyhelp"
+            android:parentActivityName=".report" />
+        <activity
+            android:name=".dosanddonts"
+            android:parentActivityName=".tutorial" />
+        <activity
+            android:name=".videotutorial"
+            android:parentActivityName=".tutorial" />
+        <activity
+            android:name=".imagetutorial"
+            android:parentActivityName=".tutorial" />
+        <activity
+            android:name=".imagetwo"
+            android:parentActivityName=".imagetutorial" />
+        <activity
+            android:name=".imagethree"
+            android:parentActivityName=".imagetwo" />
+
+        <service android:name=".smsClasses.SmsService" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"
+            tools:replace="android:value" />
+
+        <activity android:name=".sosreceiver" />
+        <activity android:name=".preview"></activity>
+    </application>
+
+</manifest>
